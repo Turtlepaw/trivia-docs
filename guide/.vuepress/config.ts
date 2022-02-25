@@ -27,7 +27,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	themeConfig: {
 		contributors: false,
 		sidebar,
-		repo: 'Turtlepaw/gamecord-docs',
+		repo: 'Cordbots/gamecord',
 		docsDir: 'guide',
 		sidebarDepth: 3,
 		editLinks: true,
@@ -37,6 +37,10 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 				text: 'Documentation',
 				link: 'https://gamecord.js.org/',
 			},
+			{
+				text: 'Discord',
+				link: 'https://discord.gg/BMBUcJvV4Q'
+			}
 		],
 		themePlugins: {
 			mediumZoom: false,

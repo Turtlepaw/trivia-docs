@@ -56,6 +56,8 @@ Rock paper scissors is a simple game played with buttons!
 	</DiscordMessage>
 </DiscordMessages>
 
+<!-- eslint-skip -->
+
 ```js
     //Using slash commands
     await new Gamecordjs.RPS({

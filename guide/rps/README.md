@@ -26,7 +26,7 @@ Rock paper scissors is a simple game played with buttons!
 				embed-title="The game has started!"
 				author-name="Powered by Gamecord.js"
 				author-icon="https://cdn.discordapp.com/emojis/946191137645940806.webp?quality=lossless"
-				author-url="https://gamecord.js.org/"
+				author-url="https://games.js.org/"
 			>
 				The RPS game has started! Please click a button.
 			</DiscordEmbed>

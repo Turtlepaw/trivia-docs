@@ -19,7 +19,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['meta', { property: 'og:title', content: 'Gamecord.js' }],
 		['meta', { property: 'og:description', content: 'Imagine an npm package that allowed your bot to have games with buttons... Introducing Gamecord.js!' }],
 		['meta', { property: 'og:type', content: 'website' }],
-		['meta', { property: 'og:url', content: 'https://gamecord.js.org/' }],
+		['meta', { property: 'og:url', content: 'https://games.js.org/' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
 		['meta', { property: 'og:image', content: '/meta-image.png' }],
 	],
@@ -35,7 +35,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		navbar: [
 			{
 				text: 'Documentation',
-				link: 'https://gamecord.js.org/',
+				link: 'https://games.js.org/',
 			},
 			{
 				text: 'Discord',

@@ -1,5 +1,6 @@
-# Introduction
+![Banner](./images/branding/banner.png)
 
+# Introduction
 <!-- Learn how to fetch questions with easy trivia & open trivia DB and add a `/trivia` command to your bot with only 3 lines of code!-->
 If you're reading this, it probably means you want to learn how to use easy trivia or discord trivia. Awesome! This guide will teach you things such as:
 

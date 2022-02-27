@@ -1,1 +1,1 @@
-<meta http-equiv="Refresh" content="0; url='https://discord.gg/BMBUcJvV4Q'" />
+<meta http-equiv="Refresh" content="0; url='https://discord.gg/sG6aZb4PPN'" />

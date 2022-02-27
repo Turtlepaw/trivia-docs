@@ -8,9 +8,11 @@ export default {
 			]
 		},
 		{
-			text: 'Games',
+			text: 'Easy Trivia',
 			children: [
-				'/rps/',
+				'/fetching/',
+				'/categories/',
+				'/encodings/'
 			],
 		},
 	],

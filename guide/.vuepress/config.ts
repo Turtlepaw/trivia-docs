@@ -3,13 +3,15 @@ import { defineUserConfig } from 'vuepress-vite';
 import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite';
 import sidebar from './sidebar';
 
+export const domain = "https://discord-trivia-guide.js.org/";
+
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	bundler: '@vuepress/vite',
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 	lang: 'en-US',
-	title: 'Gamecord.js',
-	description: 'Imagine an npm package that allowed your bot to have games with buttons... Introducing Gamecord.js!',
+	title: 'Discord & Easy Trivia',
+	description: 'Imagine an NPM package that allowed you to interact with the open trivia API...',
 	head: [
 		['meta', { charset: 'utf-8' }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -17,9 +19,9 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
 		['meta', { property: 'og:title', content: 'Gamecord.js' }],
-		['meta', { property: 'og:description', content: 'Imagine an npm package that allowed your bot to have games with buttons... Introducing Gamecord.js!' }],
+		['meta', { property: 'og:description', content: 'Imagine an NPM package that allowed you to interact with the open trivia API...' }],
 		['meta', { property: 'og:type', content: 'website' }],
-		['meta', { property: 'og:url', content: 'https://dgames.js.org/' }],
+		['meta', { property: 'og:url', content: domain }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
 		['meta', { property: 'og:image', content: '/meta-image.png' }],
 	],
@@ -35,11 +37,11 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		navbar: [
 			{
 				text: 'Documentation',
-				link: 'https://dgames.js.org/',
+				link: domain,
 			},
 			{
 				text: 'Discord',
-				link: 'https://discord.gg/BMBUcJvV4Q'
+				link: domain + "discord"
 			}
 		],
 		themePlugins: {

@@ -1,4 +1,4 @@
-const EasyTrivia = require("easy-trivia");
+const EasyTrivia = require('easy-trivia');
 
 const session = new TriviaSession();
 

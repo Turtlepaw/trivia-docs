@@ -18,7 +18,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
-		['meta', { property: 'og:title', content: 'Gamecord.js' }],
+		['meta', { property: 'og:title', content: 'Discord & Easy Trivia' }],
 		['meta', { property: 'og:description', content: 'Imagine an NPM package that allowed you to interact with the open trivia API...' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:url', content: domain }],
@@ -29,7 +29,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	themeConfig: {
 		contributors: false,
 		sidebar,
-		repo: 'Cordbots/gamecord',
+		repo: 'Turtlepaw/trivia-docs',
 		docsDir: 'guide',
 		sidebarDepth: 3,
 		editLinks: true,

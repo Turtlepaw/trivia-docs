@@ -1,6 +1,6 @@
 const EasyTrivia = require('easy-trivia');
 
-const session = new TriviaSession();
+const session = new EasyTrivia.TriviaSession();
 
 const token = await session.start();
 
@@ -8,7 +8,7 @@ const Questions = await EasyTrivia.getQuestions({
     category: 'ART',
     difficulty: 'easy',
     amount: 10,
-    token: token,
+    token,
 });
 
 console.log(Questions);

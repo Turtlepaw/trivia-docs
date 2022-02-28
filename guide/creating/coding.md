@@ -45,7 +45,7 @@ If you don't want to get the same questions (noboby wants that!) you can use a s
 const EasyTrivia = require('easy-trivia');
 
 //Create a session token
-const session = new TriviaSession();
+const session = new EasyTrivia.TriviaSession();
 
 //Get the token
 const token = await session.start();

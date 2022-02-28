@@ -8,7 +8,7 @@ const Questions = await EasyTrivia.getQuestions({
     category: 'ART',
     difficulty: 'easy',
     amount: 10,
-    token
+    token: token,
 });
 
-console.log(Questions)
+console.log(Questions);

@@ -1,1 +1,1 @@
-# Discord & Easy Trivia Docs
+# Easy Trivia Docs

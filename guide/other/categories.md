@@ -33,6 +33,7 @@ There are 27 categories to choose from here's a list of all of them.
 ## Category data
 If you want to fetch data about a specific category you can use the `getCategoryData()` method.
 
+<!-- eslint-skip -->
 ```js
 //Import the package
 const { Categories } = require('easy-trivia');
@@ -47,6 +48,7 @@ console.log(categoryData);
 ## Random Categories
 If you want to get a random category you can use the `Categories.random()` function.
 
+<!-- eslint-skip -->
 ```js
 //Import the package
 const { Categories } = require('easy-trivia');
@@ -61,6 +63,7 @@ console.log(Category);
 ## All category names
 You can get an array of all categories by using the `Categories.allNames`.
 
+<!-- eslint-skip -->
 ```js
 //Import the package
 const { Categories } = require('easy-trivia');
@@ -71,6 +74,7 @@ console.log(Categories.allNames);
 ## Get a Category
 You can get a category by name or Id
 
+<!-- eslint-skip -->
 ```js
 //Import the package
 const { Categories } = require('easy-trivia');

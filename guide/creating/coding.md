@@ -11,6 +11,7 @@ In this section we will:
 ## Requiring
 We will first `require()` the package into our file!
 
+<!-- eslint-skip -->
 ```js {1,2}
 //Import the package
 const EasyTrivia = require("easy-trivia");
@@ -19,6 +20,7 @@ const EasyTrivia = require("easy-trivia");
 ## Fetching Questions
 Now since we have imported easy trivia we will fetch 10 questions.
 
+<!-- eslint-skip -->
 ```js {4-13}
 //Import the package
 const EasyTrivia = require("easy-trivia");
@@ -37,6 +39,7 @@ console.log(Questions)
 ## Adding a session token
 If you don't want to get the same questions (noboby wants that!) you can use a session token!
 
+<!-- eslint-skip -->
 ```js {4-8,15}
 //Import the package
 const EasyTrivia = require("easy-trivia");

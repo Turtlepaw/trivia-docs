@@ -58,3 +58,6 @@ const Questions = await EasyTrivia.getQuestions({
 //Console.log the questions
 console.log(Questions)
 ```
+
+## Code
+<ResultingCode path="index.js" />

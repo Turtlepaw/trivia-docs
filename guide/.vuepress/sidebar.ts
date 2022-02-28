@@ -8,12 +8,25 @@ export default {
 			]
 		},
 		{
-			text: 'Easy Trivia',
+			text: 'Installations & Preparations',
 			children: [
-				'/fetching/',
-				'/categories/',
-				'/encodings/'
+				'/installation/'
 			],
 		},
+		{
+			text: 'Creating your project',
+			children: [
+				'/creating/',
+				'/creating/starting.md',
+				'/creating/coding.md'
+			]
+		},
+		{
+			text: 'Additional Information',
+			children: [
+				'/other/categories',
+				'/other/encodings'
+			]
+		}
 	],
 };

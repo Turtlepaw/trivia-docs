@@ -1,9 +1,10 @@
 # Categories
 
 ## Categories
-There are 27 categories to choose from here's a list of all of them:
+There are 27 categories to choose from here's a list of all of them.
 
-1. `GENERAL_KNOWLEDGE`
+::: details View All
+  1. `GENERAL_KNOWLEDGE`
 2. `ENTERTAINMENT_BOOKS`
 3. `ENTERTAINMENT_FILM`
 4. `ENTERTAINMENT_MUSIC`
@@ -27,6 +28,7 @@ There are 27 categories to choose from here's a list of all of them:
 22. `SCIENCE_GADGETS`
 23. `ENTERTAINMENT_JAPANESE_ANIME_AND_MANGA`
 24. `ENTERTAINMENT_CARTOON_AND_ANIMATIONS`
+:::
 
 ## Category data
 If you want to fetch data about a specific category you can use the `getCategoryData()` method.

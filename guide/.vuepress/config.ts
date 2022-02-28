@@ -3,14 +3,14 @@ import { defineUserConfig } from 'vuepress-vite';
 import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite';
 import sidebar from './sidebar';
 
-export const domain = "https://discord-trivia-guide.js.org/";
+export const domain = "https://easy-trivia-guide.js.org/";
 
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	bundler: '@vuepress/vite',
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 	lang: 'en-US',
-	title: 'Discord & Easy Trivia',
+	title: 'Easy Trivia Guide',
 	description: 'Imagine an NPM package that allowed you to interact with the open trivia API...',
 	head: [
 		['meta', { charset: 'utf-8' }],
@@ -18,7 +18,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
-		['meta', { property: 'og:title', content: 'Gamecord.js' }],
+		['meta', { property: 'og:title', content: 'Easy Trivia Guide' }],
 		['meta', { property: 'og:description', content: 'Imagine an NPM package that allowed you to interact with the open trivia API...' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:url', content: domain }],
@@ -29,7 +29,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	themeConfig: {
 		contributors: false,
 		sidebar,
-		repo: 'Cordbots/gamecord',
+		repo: 'Elitezen/easy-trivia',
 		docsDir: 'guide',
 		sidebarDepth: 3,
 		editLinks: true,

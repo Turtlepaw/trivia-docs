@@ -9,7 +9,7 @@ git clone https://github.com/octocat/Spoon-Knife
 ```
 
 ## Locally
-You don't have to use github you can just create a folder on your computer locally by opening your terminal and typing:
+You don't have to use GitHub you can just create a folder on your computer locally by opening your terminal and typing:
 
 ```shell
 # You can change awesome-trivia-project to whatever you want!

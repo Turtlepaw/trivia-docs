@@ -18,7 +18,7 @@ const EasyTrivia = require('easy-trivia');
 ```
 
 ## Fetching Questions
-Now since we have imported easy trivia we will fetch 10 questions.
+Now since we have imported Easy Trivia we will fetch 10 questions.
 
 <!-- eslint-skip -->
 ```js {4-13}
@@ -36,8 +36,8 @@ const Questions = await EasyTrivia.getQuestions({
 console.log(Questions)
 ```
 
-## Adding a session token
-If you don't want to get the same questions (noboby wants that!) you can use a session token!
+## Session Tokens
+If you don't want to get the same questions (nobody wants that!) you can use a session token!
 
 <!-- eslint-skip -->
 ```js {4-8,15}

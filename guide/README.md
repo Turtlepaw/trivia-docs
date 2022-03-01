@@ -13,7 +13,7 @@ Before you begin you should:
 - Have Node.js v16 installed
 - Know at least a bit of js
 
-If you have had those great, please continue with the guide! If you don't you should probably learn js before you begin with this guide.
+If you have those great, please continue with the guide! If you don't you should probably learn js before you begin with this guide.
 
 ## Discord support server
 If you run into a bug or need help with Easy Trivia you can join our Discord support server!

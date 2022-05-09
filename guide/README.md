@@ -6,6 +6,18 @@ If you're reading this, it probably means you want to learn how to use Easy Triv
 - How to [fetch questions](/creating/coding#fetching-questions)
 - How to use [session tokens](/creating/coding#session-tokens) to fetch unique questions
 
+## What is it?
+
+Easy Trivia is a wrapper for the [Open Trivia Database API](https://opentdb.com/). OpenTDB is a free to use, user-contributed, trivia question database.
+
+## Software
+
+Easy Trivia runs on [Node.js](https://nodejs.org/) if you do not know how to install Node.js you should check out these guides
+
+- [Offical Guide](https://nodejs.dev/learn/how-to-install-nodejs)
+- [GeeksforGeeks (Windows)](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)
+- [Digital Ocean](https://www.digitalocean.com/community/tutorial_collections/how-to-install-node-js)
+
 ## Before you begin
 
 This guide expects you to have a basic understanding of JavaScript.
@@ -20,14 +32,6 @@ If you want to learn about JavaScript you should check out these links and then 
 * [Nodeschool, for both JavaScript and Node.js lessons](https://nodeschool.io/)
 * [MDN's JavaScript guide and full documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Google, your best friend](https://google.com)
-
-## Software
-
-Easy Trivia runs on [Node.js](https://nodejs.org/) if you do not know how to install Node.js you should check out these guides
-
-- [Offical Guide](https://nodejs.dev/learn/how-to-install-nodejs)
-- [GeeksforGeeks (Windows)](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)
-- [Digital Ocean](https://www.digitalocean.com/community/tutorial_collections/how-to-install-node-js)
 
 ## Support
 If you run into a bug or need help with Easy Trivia you can join our Discord support server or you can [create an issue on our Github!](https://github.com/Elitezen/easy-trivia/issues/new)

@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Importing
-First, we will have to import easy trivia into our code. You can do this with `import` here's an example
+First, we will have to import easy trivia into our code. You can do this with `import` here's an example.
 
 <!-- eslint-skip -->
 ```js {1,2}

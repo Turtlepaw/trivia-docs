@@ -6,7 +6,7 @@ If you're reading this, it probably means you want to learn how to use Easy Triv
 - How to [fetch questions](/creating/coding#fetching-questions)
 - How to use [session tokens](/creating/coding#session-tokens) to fetch unique questions
 
-## Before you begin...
+## Before you begin
 
 This guide expects you to have a basic understanding of JavaScript.
 

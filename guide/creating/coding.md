@@ -1,5 +1,5 @@
 # Fetching Questions
-Now since you have created your project you can start creating your project's code.
+Since you have created your project, you can start building your project's code.
 
 <!-- eslint-skip -->
 ```js
@@ -37,7 +37,7 @@ console.log(Questions)
 ```
 
 :::tip
-`getQuestions#amount` can only be ranging from 1 to 50
+`getQuestions#amount` can only range from 1 to 50
 :::
 
 ## Code

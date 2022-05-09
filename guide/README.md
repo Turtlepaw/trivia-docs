@@ -11,7 +11,7 @@ If you're reading this, it probably means you want to learn how to use Easy Triv
 
 This guide expects you to have a basic understanding of JavaScript.
 
-If you do not have basic understanding of JavaScript you might get stuck on many uncomplicated issues, struggle with solutions to incredibly easy problems, and all-in-all end up frustrated. Sounds pretty annoying.
+If you do not have a basic understanding of JavaScript you might get stuck on many uncomplicated issues, struggle with solutions to incredibly easy problems, and all-in-all end up frustrated. Sounds pretty annoying.
 
 If you want to learn about JavaScript you should check out these links and then once you feel like you're confident enough to start coding, come back and get started!
 

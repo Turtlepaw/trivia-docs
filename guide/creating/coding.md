@@ -7,8 +7,8 @@ In this section we will
 * Use session tokens
 * Fetch category information
 
-## Requiring
-We will first `require()` the package into our file!
+## Importing
+We will first import the package into our file using `require()`.
 
 <!-- eslint-skip -->
 ```js {1,2}

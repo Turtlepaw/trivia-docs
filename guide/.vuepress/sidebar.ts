@@ -10,14 +10,14 @@ export default {
 		{
 			text: 'Installations & Preparations',
 			children: [
-				'/installation/'
+				'/installation/',
+				'/basics/',
+				'/basics/starting.md'
 			],
 		},
 		{
-			text: 'Creating your project',
+			text: 'Using Easy Trivia',
 			children: [
-				'/creating/',
-				'/creating/starting.md',
 				'/creating/coding.md'
 			]
 		},

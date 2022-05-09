@@ -1,4 +1,4 @@
-# Starting
+# Creating your project
 
 ## Github
 Github is a great place to share & collaborate your code! You can use it to host your project's code. You can create a repository at [github.new](https://github.new/). Once you have created your repository (creating a repository is optional) you can clone your repository to your computer by opening your terminal and typing:

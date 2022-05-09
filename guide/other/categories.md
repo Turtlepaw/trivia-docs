@@ -80,8 +80,8 @@ You can get a category by name or Id
 const { Categories } = require('easy-trivia');
 
 //By name
-Categories.getCategoryByName("GENERAL_KNOWLEDGE");
+Categories.getCategoryData("GENERAL_KNOWLEDGE");
 
 //By Id
-Categories.getCategoryById(9);
+Categories.getCategoryData(9);
 ```

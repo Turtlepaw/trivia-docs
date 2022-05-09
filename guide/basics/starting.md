@@ -1,4 +1,4 @@
-# Initial Files
+# Project files
 Once you have created your main directory you can start adding files to it!
 
 ## Index File

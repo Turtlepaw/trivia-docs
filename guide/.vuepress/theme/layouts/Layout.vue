@@ -14,15 +14,15 @@
 			</template>
 		</Navbar>
 		<div class="content-wrapper">
-			<!-- <Notifications>
+			<Notifications>
 				<Notification storage-key="v13-notice">
 					<span class="notification-icon"><PartyPopperIcon /></span>
 					<span>
-						You're browsing the guide for discord.js v13.
-						Check out <router-link to="/whats-new.html">what's new</router-link>, or browse the <a href="https://v12.discordjs.guide">discord.js v12 guide</a>.
+						You're browsing the guide for Easy Trivia v2.
+						Check out <router-link to="/whats-new.html">what's new</router-link>, or browse the <a href="https://v1.easytrivia-guide.js.org">Easy Trivia v1 guide</a>.
 					</span>
 				</Notification>
-			</Notifications> -->
+			</Notifications>
 			<div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 			<div class="sidebar-wrapper">
 				<Sidebar>

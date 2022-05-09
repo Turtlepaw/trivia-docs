@@ -17,7 +17,9 @@ export default {
 		{
 			text: 'Using Easy Trivia',
 			children: [
-				'/creating/coding.md'
+				'/creating/getting-started.md',
+				'/creating/coding.md',
+				'/creating/sessions.md'
 			]
 		},
 		{

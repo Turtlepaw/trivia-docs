@@ -1,14 +1,13 @@
-const EasyTrivia = require('easy-trivia');
+//Import the package
+import { getQuestions, Category } from "easy-trivia";
 
-const session = new EasyTrivia.TriviaSession();
-
-const token = await session.start();
-
-const Questions = await EasyTrivia.getQuestions({
-    category: 'ART',
-    difficulty: 'easy',
+//Fetch 10 questions
+const Questions = await getQuestions({
+    category: Category.allNames.SCIENCE_COMPUTERS,
     amount: 10,
-    token,
+    type: 'multiple',
+    difficulty: 'easy'
 });
 
-console.log(Questions);
+//Console.log the questions
+console.log(Questions)

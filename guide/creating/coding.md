@@ -1,35 +1,35 @@
-# Using Easy Trivia in your project
-Now since you have created your `index.js` file you can start coding in it!
-
-## What we are doing?
-In this section we will
-* Fetch 10 questions and log it to the console
-* Use session tokens
-* Fetch category information
-
-## Importing
-We will first import the package into our file using `require()`.
+# Fetching Questions
+Now since you have created your project you can start creating your project's code.
 
 <!-- eslint-skip -->
-```js {1,2}
+```js
 //Import the package
-const EasyTrivia = require('easy-trivia');
-```
-
-## Fetching Questions
-Now since we have imported Easy Trivia we will fetch 10 questions.
-
-<!-- eslint-skip -->
-```js {4-13}
-//Import the package
-const { getQuestions, Category } = require('easy-trivia');
+import { getQuestions, Category } from "easy-trivia";
 
 //Fetch 10 questions
 const Questions = await getQuestions({
     category: Category.allNames.SCIENCE_COMPUTERS,
-    difficulty: 'easy',
+    amount: 10
+});
+
+//Console.log the questions
+console.log(Questions)
+```
+
+## Question types and difficulties
+You can change the type and difficulty of the questions you fetch.
+
+<!-- eslint-skip -->
+```js {8-9}
+//Import the package
+import { getQuestions, Category } from "easy-trivia";
+
+//Fetch 10 questions
+const Questions = await getQuestions({
+    category: Category.allNames.SCIENCE_COMPUTERS,
     amount: 10,
-    type: 'multiple'
+    type: 'multiple',
+    difficulty: 'easy'
 });
 
 //Console.log the questions
@@ -39,35 +39,6 @@ console.log(Questions)
 :::tip
 `getQuestions#amount` can only be ranging from 1 to 50
 :::
-
-## Session Tokens
-If you don't want to get the same questions (nobody wants that!) you can use a session token!
-
-<!-- eslint-skip -->
-```js {4-8,16,22}
-//Import the package
-const { getQuestions, Category, Session } = require('easy-trivia');
-
-//Create a session
-const session = new Session();
-
-//Start the session
-await session.start();
-
-//Fetch 10 questions
-const Questions = await getQuestions({
-    category: Category.allNames.SCIENCE_COMPUTERS,
-    difficulty: 'easy',
-    amount: 10,
-    type: 'multiple',
-    session
-});
-
-//Console.log the questions
-console.log(Questions)
-
-session.end();
-```
 
 ## Code
 <ResultingCode path="index.js" />

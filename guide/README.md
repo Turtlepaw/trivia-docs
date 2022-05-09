@@ -3,7 +3,6 @@ If you're reading this, it probably means you want to learn how to use Easy Triv
 
 - How to [set up a project on github](/creating#github) or [create one locally](/creating#locally)
 - How to [install easy trivia](/installation#installing-easy-trivia) and [Node.js](/installation#installing-node.js)
-- How to [create an index file](/creating/starting#index-file)
 - How to [fetch questions](/creating/coding#fetching-questions)
 - How to use [session tokens](/creating/coding#session-tokens) to fetch unique questions
 

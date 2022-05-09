@@ -11,8 +11,7 @@ export default {
 			text: 'Installations & Preparations',
 			children: [
 				'/installation/',
-				'/basics/',
-				'/basics/starting.md'
+				'/basics/'
 			],
 		},
 		{

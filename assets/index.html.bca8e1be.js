@@ -1,0 +1,1 @@
+const e={key:"v-563401b1",path:"/basics/",title:"Creating your project",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Github",slug:"github",children:[]},{level:2,title:"Locally",slug:"locally",children:[]},{level:2,title:"Code Editor",slug:"code-editor",children:[]}],filePathRelative:"basics/README.md",git:{updatedTime:1652135257e3}};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-da2fec5c",path:"/creating/coding.html",title:"Fetching Questions",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Question types and difficulties",slug:"question-types-and-difficulties",children:[]},{level:2,title:"Code",slug:"code",children:[]}],filePathRelative:"creating/coding.md",git:{updatedTime:1652135257e3}};export{e as data};

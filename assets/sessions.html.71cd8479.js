@@ -1,0 +1,1 @@
+const e={key:"v-0a86f082",path:"/creating/sessions.html",title:"Using Sessions",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Code",slug:"code",children:[]}],filePathRelative:"creating/sessions.md",git:{updatedTime:1652135257e3}};export{e as data};
